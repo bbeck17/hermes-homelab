@@ -1,0 +1,15 @@
+# Never commit credentials or agent state
+.env
+.env.*
+auth.json
+*.db
+*.db-shm
+*.db-wal
+backups/
+*.tar.gz
+*.tar.zst
+
+# Agent memory is personal, not infrastructure
+memories/
+sessions/
+logs/
